@@ -48,9 +48,9 @@ s3.copy_object(
     Bucket=bucket_name,  # Имя бакета, куда будет произведено копирование
     Key="1_copy.txt",  # Имя скопированного файла
 )
-print("\nОбъект успешно скопирован")
+print("\nФайл успешно скопирован")
 
 
 # Удаление файла
 s3.delete_object(Bucket=bucket_name, Key="1_copy.txt")
-print("\nОбъект успешно удалён")
+print("\nФайл успешно удалён")
